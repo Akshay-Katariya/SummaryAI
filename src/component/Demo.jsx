@@ -1,8 +1,17 @@
+import { useEffect, useState } from "react";
+
 import { copy, linkIcon, loader, tick } from "../assets";
 
-const handleSubmit = () => {};
-
 const Demo = () => {
+  const [article, setArticle] = useState({
+    url: "",
+    summary: "",
+  });
+
+  const handleSubmit = async () => {
+    // API Call
+  };
+
   return (
     <section className="mt-16 w-full max-w-xl">
       {/* Search */}
@@ -19,8 +28,8 @@ const Demo = () => {
           <input
             type="url"
             placeholder="Enter a url"
-            value={""}
-            onChange={() => {}}
+            value={article.url}
+            onChange={(e) => setArticle({ ...article, url: e.target.value })}
             required
             className="url_input peer"
           />
