@@ -11,7 +11,7 @@ Elevate your reading experience with SummaryAI an open-source article summarizer
 
 ## Live Demo 🚀
 
-Explore the live demo: [SummaryAI Demo](https://dainty-crisp-782f6b.netlify.app/)
+Explore the live demo: [SummaryAI Demo](https://ak-summaryai.netlify.app/)
 
 ## Getting Started 🛠️
 
