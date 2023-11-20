@@ -26,7 +26,7 @@ Follow these steps to run SummaryAI locally:
 2. **Install dependencies:**
 
    ```bash
-   cd summaryai && npm install
+   cd SummaryAI && npm install
    ```
 
 3. **Run the development server:**
